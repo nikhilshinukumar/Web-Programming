@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+a:link {
+  text-decoration:none;
+  color:red;
+}
+a:visited {
+  text-decoration:none;
+  color:red;
+}
+a:hover {
+  text-decoration:underline;
+  color:black;
+}
+a:active {
+  text-decoration:underline;
+  color:blue;
+}
+p {
+  color:purple;
+  font-weight:bold;
+}
+</style>
+</head>
+<body>
+<p>Visit<b><a href="http://www.twitter.com/" target="_blank"> Twitter</a></b></p>
+<p>Visit<b><a href="https://www.facebook.com/" target="_blank"> Facebook!</a></b></p>
+<p>Visit<b><a href="https://www.instagram.com/" target="_blank"> Instagram!</a></b></p>
+<p>When setting the style for several link states, there are some order rules:
+<ul>
+<li>a:hover MUST come after a:link and a:visited</li>
+<li>a:active MUST come after a:hover</li>
+</ul>
+</p>
+</body>
+</html>
